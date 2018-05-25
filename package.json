@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byalexlynpi/mysite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byalexlynpi/mysite/issues"
+  },
+  "homepage": "https://github.com/byalexlynpi/mysite#readme",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.1",
+    "run-sequence": "^2.2.1"
+  }
+}
