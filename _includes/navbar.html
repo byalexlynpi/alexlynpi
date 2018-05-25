@@ -1,8 +1,16 @@
-<nav class="site-header">
-  <ul class="site-navabr">
-    <li class="site-navbar--item"><a href="">Projects</a></li>
-    <li class="site-navbar--item"><a href="">Writings</a></li>
-    <li class="site-navbar--item"><a href="">About</a></li>
-    <li class="site-navbar--item"><a href="">Resume</a></li>
-  </ul>
+<nav class="siteHeader">
+    <div class="siteLogo">
+      <a href="" class="siteLogo__Text">Peterson</a>
+    </div>
+    <ul class="siteNavbar">
+      <li class="siteNavbar__Item">
+        <a href="{{ site.baseurl}}/projects" class="{% if page.title == "Projects"%} active {% endif%}siteNavbar__Label">Projects</a>
+      </li>
+      <li class="siteNavbar__Item">
+        <a href="{{ site.baseurl}}/writings" class="{% if page.title == "Writings"%} active {% endif%}siteNavbar__Label">Writings</a>
+      </li>
+      <li class="siteNavbar__Item">
+        <a href="{{ site.baseurl}}/about" class="{% if page.title == "About"%} active {% endif%}siteNavbar__Label">About</a>
+      </li>
+    </ul>
 </nav>

@@ -1,0 +1,27 @@
+.siteHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.siteLogo {
+  float: left;
+}
+
+.siteLogo__Text {
+  font-weight: bold;
+}
+
+.siteNavbar {
+  float: right;
+}
+
+.siteNavbar__Item {
+  display: inline;
+}
+
+.siteNavbar__Label {
+  display: inline-block;
+  padding: .8rem 1rem;
+}
